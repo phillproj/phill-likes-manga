@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Perfect Manga Reviews</title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>Perfect Manga Reviews</h1>
+                <p>See our complete list <a href="https://anilist.co/user/patrokluus/">here</a>.</p>
+            </section>
+            
+            <section>
+                <h2>Meet the Curators</h2>
+                <figure>
+                    <a href="https://anilist.co/user/patrokluus/">
+                        <img src="patrokluus.jpg" alt="Patrokluus profile picture">
+                    </a>
+                    <figcaption>Patrokluus</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://anilist.co/user/xetrint/">
+                        <img src="xetrint.png" alt="Xetrint profile picture">
+                    </a>
+                    <figcaption>Xetrint</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h2>Editor lists</h2>
+                <h3>All time favorites</h3>
+                <ul>
+                    <li>Fullmetal Alchemist</li>
+                    <li>Tokyo Ghoul</li>
+                    <li>Oyasumi Punpun</li>
+                </ul>
+                <figure>
+                    <img src="punpunCover.png" alt="Oyasumi Punpun cover art">
+                    <figcaption>Unconventional, emotional, motivational... this manga is many things. Bad is not one of them.</figcaption>
+                </figure>
+
+                <h3>Currently reading</h3>
+                <ul>
+                    <li>Spy x Family</li>
+                    <li>Jojo's Bizarre Adventure</li>
+                    <li>One Punch Man</li>
+                </ul>
+                <figure>
+                    <img src="onePunchCover.jpg" alt="One Punch Man cover art">
+                    <figcaption>Artistically on part with, if not better than, the first season of anime with a compelling plot</figcaption>
+                </figure>
+
+                <h3>Niche picks that need to stop being niche</h3>
+                <ul>
+                    <li>GUNNM</li>
+                    <li>TBD</li>
+                    <li>5 Centimeters per Second</li>
+                </ul>
+                <figure>
+                    <img src="fiveCentimetersCover.jpg" alt="5 Centimters per Second cover art">
+                    <figcaption>Wouldn't be a manga review site if we didn't say this at least once: the manga was better.</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <form action="response.txt">
+                    <fieldset>
+                        <legend>Help us decide where to go next!</legend>
+                        <input id="oldmanga" type="radio" name="suggestion" value="oldmanga">
+                        <label for="oldmanga">Old manga</label>
+                        <input id="newermanga" type="radio" name="suggestion" value="newermanga">
+                        <label for="newermanga">Newer manga</label>
+                        <input id="currentmanga" type="radio" name="suggestion" value="currentmanga">
+                        <label for="currentmanga">Current manga</label>
+                        <label for="othercomics">Other comics: </label>
+                        <input id="othercomics" type="text" name="suggestion">
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>Project 1.2 Practice 2.</footer>
+    </body>
 </html>
